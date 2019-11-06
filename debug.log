@@ -1,0 +1,4 @@
+[1022/152452.844:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1022/152452.869:ERROR:exception_snapshot_win.cc(98)] thread ID 12044 not found in process
+[1022/152452.869:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[1029/185504.207:ERROR:process_info.cc(359)] UncheckedAllocate

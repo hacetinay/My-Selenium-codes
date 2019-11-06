@@ -13,7 +13,7 @@ public class VyTrackLogOut {
         driver.findElement(By.id("prependedInput")).sendKeys("username");
         driver.findElement(By.id("prependedInput2")).sendKeys("password");
         driver.findElement(By.id("_submit")).click();
-        WebElement InvalidLoginCredentials = driver.findElement(By.xpath("//div[contains(@class,‘alert alert-error)]"));
+        WebElement InvalidLoginCredentials = driver.findElement(By.xpath("//div[contains(@class,‘alert alert-error’)]"));
         String ExpectedFailedLoginNotificationText = "Invalid user name or password.";
         String ActualFailedLoginNotificationText = InvalidLoginCredentials.getText();
         System.out.println(ActualFailedLoginNotificationText);
